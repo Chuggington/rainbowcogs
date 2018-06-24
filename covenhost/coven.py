@@ -170,7 +170,6 @@ Use `/joingame [Town of Salem IGN]` or `/jg [ToS IGN]` to join. You will shortly
         toscd = discord.Server(id='288455332173316106')
         emoteLib = discord.Server(id='401122122400923648')
         optinrole = discord.Role(id='358655924342095874', server='288455332173316106')
-
         auth = str(ctx.message.author.id)
 
         animpartyblob1 = discord.Emoji(name='animpartyblob1', server=emoteLib)
@@ -197,7 +196,7 @@ You may choose more than 1.
 <:CovenEvilsVEvils:406242997492252674> - Evils v Evils.
 <:CovenAllAny:406242997727133697> - All Any.
 <:CovenMafiaReturns:406242998083649546> - Mafia Returns
-<:CovenRotating:406242998205153298> - Rotating Gamemode (VIP, Rivals, or Lovers.)
+<:CovenRotating:406242998205153298> - Rotating Gamemode (VIP or Lovers.)
 """)
         
         await self.bot.edit_role(toscd, optinrole, name="Coven Notifications",
